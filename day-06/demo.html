@@ -13,7 +13,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
         crossorigin="anonymous">    
     <style>
-        .example .col-sm {
+        .example .col-sm, .example .col-md, .example .col-lg {
             border: 1px solid grey;
             padding: 1.5em;
         }
@@ -44,10 +44,16 @@
     <div class="container example">
         <h1>Grid</h1>
         <div class="row">
-            <div class="col-sm bg-success">One of three columns</div>
-            <div class="col-sm bg-info">One of three columns</div>
-            <div class="col-sm bg-warning">One of three columns</div>
+            <div class="col-md bg-success">One of three columns</div>
+            <div class="col-md bg-info">One of three columns</div>
+            <div class="col-md bg-warning">One of three columns</div>
         </div>
+        <div class="row">
+          <div class="col-md bg-danger">One of three columns</div>
+          <div class="col-md bg-secondary">One of three columns</div>
+          <div class="col-md bg-primary">One of three columns</div>
+          <div class="col-md bg-muted">One of three columns</div>
+      </div>
     </div>
     <br />
     <!-- bounding container that centers content on the page -->

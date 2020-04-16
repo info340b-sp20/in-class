@@ -11,67 +11,82 @@
 </head>
 
 <body>
-    <header>
-        <h1>Informatics Student</h1>
-        <span>A Senior in the Informatics Programm at the University of Washington, seeking meaningful employment.</span>
-        <nav>
-            <ul>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="interests">
-            <h2>My Interests</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis nihil ipsam neque, necessitatibus
-                perspiciatis consequatur officiis inventore deserunt illum velit obcaecati. Impedit, rerum! Suscipit ab
-                vel voluptatibus assumenda debitis.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div>
-                <div>
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
-                        quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
-                        voluptate odio omnis quod?</p>
-                    <a href="">View Project</a>
-                </div>
-                <div>
-                    <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
-                        quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
-                        voluptate odio omnis quod?</p>
-                    <a href="">View Project</a>
-                </div>
-                <div>
-                    <h3>Project 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
-                        quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
-                        voluptate odio omnis quod?</p>
-                    <a href="">View Project</a>
+    <div class="container">
+        <header>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Informatics Student</h1>
+                    <span>A Senior in the Informatics Programm at the University of Washington, seeking meaningful employment.</span>
+                    
                 </div>
             </div>
-
-        </section>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate placeat debitis officia
-                nesciunt similique iure temporibus, iste sapiente nemo possimus laborum impedit quaerat dolore. Placeat
-                quod officiis maxime rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quo. Impedit
-                molestiae quaerat omnis laboriosam deleniti iure sit dolore quasi quidem repudiandae. Quo inventore
-                tempora exercitationem assumenda asperiores doloremque molestiae.</p>
-            <img src="./img/College-Student-Discounts.jpg" alt="Personal profile picture">
-        </section>
-    </main>
-    <footer>
-        <div>
-            <span>Image from <a href="https://morguefile.com/" target="_blank">MorgueFile</a></span>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="interests">
+                <h2>My Interests</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis nihil ipsam neque, necessitatibus
+                    perspiciatis consequatur officiis inventore deserunt illum velit obcaecati. Impedit, rerum! Suscipit ab
+                    vel voluptatibus assumenda debitis.</p>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="http://placeimg.com/200/100/any/tech" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur voluptate odio omnis quod?</p>
+                        <p class="card-text"><a href="">View Project</a></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="http://placeimg.com/200/100/any/people" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur voluptate odio omnis quod?</p>
+                        <p class="card-text"><a href="">View Project</a></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="http://placeimg.com/200/100/any/nature" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur voluptate odio omnis quod?</p>
+                        <p class="card-text"><a href="">View Project</a></p>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <section id="about">
+                
+                <div class="row">
+                    <div class="col-sm-10">
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate placeat debitis officia
+                        nesciunt similique iure temporibus, iste sapiente nemo possimus laborum impedit quaerat dolore. Placeat
+                        quod officiis maxime rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quo. Impedit
+                        molestiae quaerat omnis laboriosam deleniti iure sit dolore quasi quidem repudiandae. Quo inventore
+                        tempora exercitationem assumenda asperiores doloremque molestiae.</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="shadow w-100 p-12 rounded-circle" src="./img/College-Student-Discounts.jpg" alt="Personal profile picture">
+                    </div>
+                </div>  
+            </section>
+        </main>
+        <footer class="blockquote-footer">
+            <div>
+                <span>Image from <a href="https://morguefile.com/" target="_blank">MorgueFile</a></span>
+            </div>
+        </footer>
         </div>
-    </footer>
 </body>
 
 </html>
