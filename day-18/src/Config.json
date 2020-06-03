@@ -1,0 +1,10 @@
+{ "config": {
+    "apiKey": "AIzaSyB_U7_d56o8EPNVvvzUial_uMjsIBXHl1Y",
+    "authDomain": "info340-auth.firebaseapp.com",
+    "databaseURL": "https://info340-auth.firebaseio.com",
+    "projectId": "info340-auth",
+    "storageBucket": "info340-auth.appspot.com",
+    "messagingSenderId": "985679312508",
+    "appId": "1:985679312508:web:4ebb31a2f05d327e017bf9"
+    }
+}
